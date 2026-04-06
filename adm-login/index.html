@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../assets/img/logo.iconi.ico" type="image/x-icon">
+    <title>Admin Login - Studio Mônica Camargo</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="../assets/js/theme.js"></script>
+</head>
+
+<body>
+
+    <div id="loader">
+        <div class="loader-content">
+            <img src="../assets/img/Studio Beauty Mônica Camargo.png" class="loader-logo">
+            <div class="spinner"></div>
+        </div>
+    </div>
+
+    <div class="login-card">
+        <img src="../assets/img/Studio Beauty Mônica Camargo.png" alt="Logo" class="login-logo">
+        <h1>Acesso Admin</h1>
+
+        <form id="loginForm">
+            <input type="text" id="usuario" placeholder="Usuário Admin" required>
+            <input type="password" id="senha" placeholder="Senha" required>
+
+            <div id="mensagemErro" class="error-msg">
+                Usuário ou senha incorretos!
+            </div>
+
+            <button type="submit" class="btn-admin">
+                Entrar no Painel
+            </button>
+        </form>
+
+        <a href="../index.html" class="back-link">
+            ← Voltar para o site
+        </a>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
